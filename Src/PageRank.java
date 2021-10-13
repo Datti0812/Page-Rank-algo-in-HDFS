@@ -34,5 +34,5 @@ public class PageRank {
             input = output + "/" + "part-r-00000";
           }
     context.write(NullWritable.get(), new Text(print + " " + rank_value + ""));
-  }
+    }
 }
